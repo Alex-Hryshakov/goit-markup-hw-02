@@ -1,14 +1,8 @@
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --primary-font-size: 16px;
-  --secondary-font-size: 14px;
+  /* --secondary-font-size: 14px; */
   --primary-font-weight: 700;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -21,7 +15,16 @@
 
 body {
   font-family: var(--primary-font), sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /* ===================================HEADER=================================== */
@@ -30,7 +33,6 @@ body {
   font-weight: var(--primary-font-weight);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--fourty-text-color);
 }
 .accent {
@@ -42,7 +44,6 @@ body {
 }
 .menu-link {
   font-weight: 500;
-  font-size: var(--secondary-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -52,7 +53,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: var(--secondary-font-size);
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -95,30 +96,21 @@ body {
 /* ========================================= PLUS =========================================*/
 
 .plus-title {
-  font-weight: var(--primary-font-weight);
   font-size: var(--secondary-font-size);
-  line-height: 1.14px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-text-color);
 }
 .plus-text {
-  font-size: var(--secondary-font-size);
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 /*=========================================== TEAM ===========================================*/
 
-.examples-title,
-.team-title {
-  font-weight: var(--primary-font-weight);
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 .team {
   background-color: var(--secondary-bcg);
@@ -128,14 +120,11 @@ body {
   font-size: var(--primary-font-size);
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 .team-speciality {
   font-size: var(--primary-font-size);
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /*======================================== FOOTER ========================================*/
@@ -144,7 +133,6 @@ body {
   font-weight: var(--primary-font-weight);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   color: var(--thirty-text-color);
 }
@@ -153,12 +141,7 @@ body {
   font-style: normal;
   font-size: var(--secondary-font-size);
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--thirty-text-color);
-}
-.address-text:hover,
-.address-text:focus {
-  color: var(--accent-color);
 }
 
 /* =====================================OUR PORTFOLIO ===================================== */
@@ -174,23 +157,23 @@ body {
   font-size: var(--primary-font-size);
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   cursor: pointer;
 }
 .portfolio-examples-title {
   font-weight: var(--primary-font-weight);
   font-size: 18px;
-  line-height: 2x;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
 }
 .portfolio-examples-text {
   font-size: var(--primary-font-size);
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .menu-link-current {
   color: var(--accent-color);
 }
+/* .nav-first-current {
+  background-color: #ffffff;
+} */
