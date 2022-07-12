@@ -150,6 +150,10 @@ body {
   background-color: var(--accent-color);
   color: var(--thirty-text-color);
 }
+.nav-on-portfolio-text.current {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 .nav-on-portfolio-text {
   background-color: var(--secondary-bcg);
   font-family: inherit;
